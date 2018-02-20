@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "83324194011",
+    "firebase_url": "https://mr-sinister.firebaseio.com",
+    "project_id": "mr-sinister",
+    "storage_bucket": "mr-sinister.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83324194011:android:f766977acd347707",
+        "android_client_info": {
+          "package_name": "com.tikal.sinister"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83324194011-uk9dbu466mtrh9f2pbfn9trae3a8a66m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tikal.sinister",
+            "certificate_hash": "bc8928a0789d33bc897ff8bd4b96b7989e4ca8db"
+          }
+        },
+        {
+          "client_id": "83324194011-pd1ji184jp7e9rulj2jt4tr0t2ikssh6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJA1nxs3mCVoZnkbGbjfOZCgpGEZ_CUXk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83324194011-pd1ji184jp7e9rulj2jt4tr0t2ikssh6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
