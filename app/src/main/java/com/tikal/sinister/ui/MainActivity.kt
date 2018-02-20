@@ -1,7 +1,8 @@
-package com.tikal.sinister
+package com.tikal.sinister.ui
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.tikal.sinister.R
 
 class MainActivity : AppCompatActivity() {
 
