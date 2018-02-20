@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity
 import com.firebase.ui.auth.AuthUI
 import com.firebase.ui.auth.ErrorCodes
 import com.firebase.ui.auth.IdpResponse
+import com.tikal.sinister.ui.dashboard.DashboardActivity
 import timber.log.Timber
 import java.util.*
 
@@ -40,7 +41,7 @@ class LoginActivity : AppCompatActivity() {
 
             // Successfully signed in
             if (resultCode == Activity.RESULT_OK) {
-//                startActivity(SignedInActivity.createIntent(this, response))
+                startActivity(Intent(this@LoginActivity, DashboardActivity::class.java))
                 finish()
                 return
             } else {
