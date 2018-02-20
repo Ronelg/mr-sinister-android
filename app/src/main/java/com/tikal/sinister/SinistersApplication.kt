@@ -8,8 +8,12 @@ import timber.log.Timber
  */
 class SinistersApplication : Application() {
 
+    lateinit var component: AppComponent
+
     override fun onCreate() {
         super.onCreate()
         Timber.plant(Timber.DebugTree())
+
+
     }
 }
